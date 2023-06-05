@@ -71,7 +71,7 @@ static const struct arg args[] = {
     	{ ipv4, "IP GIVEAWAY:%s  ", "eth0" },
     	{ netspeed_rx, "🔻%10sB/s  ", "eth0" },
     	{ netspeed_tx, "🔺%10sB/s  ", "eth0" },
-	{ run_command, "🔊:%s  ", "pamixer --get-volume" },
+	{ run_command, "🔊:%3s%%  ", "pamixer --get-volume" },
 	{ cpu_perc, " :%2s%%  ", NULL },
 	{ ram_perc, " :%2s%%  ", NULL },
 	{ datetime, "🕓 %s ", "%R [%a %b %d]" },
